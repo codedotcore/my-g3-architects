@@ -1,0 +1,159 @@
+/* google fonts */
+@import url(font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;);
+
+
+
+
+
+
+/* common styles or utilites */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.primary-btn{
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    padding: 20px 25px;
+    background: #FF900E;
+
+}
+
+.primary-btn:hover{
+    background-color: transparent;
+    border: 3px solid orangered;
+    color: black;
+    
+}
+
+
+/*  style- header section */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation ul li a{
+    color: #fd0000;
+    text-transform: capitalize;
+    font-weight: 500;
+font-size: 28px;
+line-height: 26px;
+text-decoration: none;
+letter-spacing: 1px;
+
+}
+
+.navigation ul li a:hover{
+    color: #FF900E;
+}
+.h-banner{
+    margin-top: 60px;
+    text-align: center;
+}
+.h-banner p{
+    color: #727272;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color .5s, border 1s, color .5s;
+}
+
+.h-banner .primary-btn{
+    margin-bottom: 50px;
+}
+.h-banner-image img{
+    width: 100%;
+}
+.text-3{
+    color: #FF900E;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.text-2{
+    color:black;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+
+
+
+/* Features design */
+
+.main-feature{
+    display: flex;
+    margin-top: 60px;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-text .text-1{
+    color: #727272;
+    font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+}
+.feature-text .text-2{
+    color: #131313;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.feature-text .text-3{
+    color: #FF900E;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.feature-content{
+    margin-top: 30px;
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+
+.primary-btn{
+    margin-top: 30px;
+}
+
+
+
+/* section-item details */
+
